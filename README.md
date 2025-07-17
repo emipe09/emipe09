@@ -1,7 +1,8 @@
 ## Hi there 👋
 
 Sou o Marcos Paulo, aluno da UFOP pelo curso de Engenharia da Computação. 
-Atualmente estou em uma residência como desenvolvedor back-end na iUUl, atuando com Node.js.
+Recentemente, atuei como desenvolvedor back-end em node.js, em uma residência de software na iUUl.
+Gosto de análise de dados e inteligência artificial, tendo alguns projetos na área!
 
 Me considero uma pessoa que está sempre disposta a melhorar e minha maior meta é poder dar 100% do meu melhor a todo instante.
 
