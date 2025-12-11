@@ -64,7 +64,7 @@ Sou aluno do 8º período de Engenharia da Computação, apaixonado por transfor
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=emipe09&show_icons=true&theme=dracula&hide_border=true" height="180px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emipe09&langs_count=6&count_private=true&include_all_commits=true&theme=dracula&layout=compact&hide_border=true" height="180px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emipe09&layout=compact&theme=dracula&hide_border=true" height="180px"/>
 </div>
 
 ---
