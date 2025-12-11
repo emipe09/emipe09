@@ -10,7 +10,7 @@
 
 ### 👨‍💻 Sobre Mim
 
-Sou aluno do 8º período de Engenharia da Computação, apaixonado por transformar problemas complexos em soluções eficientes. Minha trajetória combina a disciplina da Engenharia de Software com a inovação da Inteligência Artificial.
+Sou aluno de Engenharia da Computação, apaixonado por transformar problemas complexos em soluções eficientes. Minha trajetória combina a disciplina da Engenharia de Software com a inovação da Inteligência Artificial.
 
 - 💼 **Experiência:** Atuei recentemente como **Desenvolvedor Back-End (Node.js)** na residência de software da **iUUL**, focando em APIs REST, testes e performance.
 - 🔭 **Atualmente:** Estou aprofundando meus estudos em **Ciência de Dados** e **Machine Learning**, aplicando conhecimentos em projetos práticos (como meu TCC sobre Fórmula 1 🏎️).
