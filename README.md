@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZ0bHdpODV5YnZ3MGg4bXhqMmZ5Z3Z5YnZ3MGg4bXhqMmZ5Z3Z5YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L1R1TVThqceKoylA0u/giphy.gif" width="100px" />
+  <img src="[https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZ0bHdpODV5YnZ3MGg4bXhqMmZ5Z3Z5YnZ3MGg4bXhqMmZ5Z3Z5YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L1R1TVThqceKoylA0u/giphy.gif](https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif)" width="100px" />
   <h1>Olá, eu sou o Marcos Paulo! 👋</h1>
   <h3>Engenharia da Computação @ UFOP 🎓</h3>
   <p>
