@@ -60,13 +60,13 @@ Sou aluno do 8º período de Engenharia da Computação, apaixonado por transfor
 
 ---
 
-### 📊 Estatísticas
+### 📊 Minha Frequência
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=emipe09&show_icons=true&theme=dracula&hide_border=true" height="180px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emipe09&layout=compact&theme=dracula&hide_border=true" height="180px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=emipe09&theme=dracula&hide_border=true" height="180px" alt="GitHub Streak" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emipe09&layout=compact&theme=dracula&hide_border=true&langs_count=6" height="180px" alt="Top Langs" />
 </div>
-
 ---
 
 ### 📫 Contato
