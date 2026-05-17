@@ -1,9 +1,12 @@
+```md
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="100px" />
   
   <h1>Olá, eu sou o Marcos Paulo! 👋</h1>
-  
-  <h3>Computer Engineering Student @ UFOP 🎓</h3>
+  <h1>Hello, I'm Marcos Paulo! 👋</h1>
+
+  <h3>Engenharia da Computação @ UFOP 🎓</h3>
+  <h3>Computer Engineering @ UFOP 🎓</h3>
 
   <p>
     <b>Mobile Developer • Back-End Developer • Data Science Researcher</b>
@@ -20,23 +23,63 @@
 
 <br/>
 
-# 👨‍💻 About Me
+# 👨‍💻 Sobre Mim | About Me
 
+🇧🇷  
+Sou estudante de Engenharia da Computação apaixonado por desenvolver software de impacto e transformar dados complexos em soluções inteligentes.
+
+Minha trajetória combina:
+- 📱 Desenvolvimento Mobile
+- ⚙️ Engenharia Back-End
+- 📊 Ciência de Dados e Machine Learning
+
+Atualmente atuo como **Estagiário em Desenvolvimento Mobile na SYSDAM**, desenvolvendo aplicações cross-platform com foco em performance, escalabilidade e experiência do usuário.
+
+Também possuo experiência como **Desenvolvedor Back-End (Node.js)** na residência de software da **iUUL**.
+
+---
+
+🇺🇸  
 I'm a Computer Engineering student passionate about building impactful software and transforming complex data into intelligent solutions.
 
 My journey combines:
 - 📱 Mobile Development
 - ⚙️ Back-End Engineering
-- 📊 Data Science & Machine Learning Research
+- 📊 Data Science & Machine Learning
 
-Currently, I work as a **Mobile Development Intern at SYSDAM**, developing cross-platform applications using modern technologies focused on performance, scalability and user experience.
+Currently, I work as a **Mobile Development Intern at SYSDAM**, developing cross-platform applications focused on performance, scalability and user experience.
 
 I also have experience as a **Back-End Developer (Node.js)** at the software residency program from **iUUL**.
 
 ---
 
-# 🔬 Research & Formula 1 Project
+# 🔬 Pesquisa & Fórmula 1 | Research & Formula 1
 
+🇧🇷  
+Uma das minhas maiores paixões é pesquisa e machine learning aplicado.
+
+Atualmente, meu principal projeto de pesquisa e TCC é focado em:
+
+🏎️ **Predição de Tempos de Volta na Fórmula 1 utilizando Machine Learning**
+
+O projeto envolve:
+- Modelagem de ritmo de corrida
+- Integração de dados meteorológicos
+- Estratégias de validação com Sliding Window
+- Análise de pilotos, equipes e pneus
+- Processamento de dados inspirado em telemetria real
+
+Meu objetivo é unir:
+- Rigor estatístico
+- Engenharia de software
+- Análise de motorsport
+- Interpretabilidade em machine learning
+
+para construir modelos robustos de análise de performance na Fórmula 1.
+
+---
+
+🇺🇸  
 One of my biggest passions is research and applied machine learning.
 
 Currently, my main research project and undergraduate thesis focuses on:
@@ -48,7 +91,7 @@ The project involves:
 - Weather integration
 - Sliding window validation strategies
 - Driver/team/tire performance analysis
-- Real-world telemetry-inspired data processing
+- Telemetry-inspired data processing
 
 My goal is to combine:
 - Statistical rigor
@@ -60,7 +103,7 @@ to create robust predictive models for Formula 1 performance analysis.
 
 ---
 
-# 🚀 Main Stack
+# 🚀 Main Stack | Stack Principal
 
 <div align="center">
 
@@ -103,7 +146,7 @@ to create robust predictive models for Formula 1 performance analysis.
 
 ---
 
-# ⚡ Current Focus
+# ⚡ Foco Atual | Current Focus
 
 - 📱 Mobile Engineering with React Native & Expo
 - 🧠 Machine Learning Research
@@ -118,3 +161,4 @@ to create robust predictive models for Formula 1 performance analysis.
 ### “Always trying to become 1% better every day.”
 
 </div>
+```
