@@ -59,12 +59,16 @@ Uma das minhas maiores paixões é pesquisa e machine learning aplicado.
 
 Atualmente, meu principal projeto de pesquisa e TCC é focado em:
 
-🏎️ **Predição de Tempos de Volta na Fórmula 1 utilizando Machine Learning**
+🏎️ **Predição Multi-Circuito de Tempos de Volta na Fórmula 1 com Deep Learning Híbrido**
+
+Esse trabalho originou o artigo *"Multi-Circuit Formula 1 Lap Time Prediction: A Hybrid Deep Learning Approach for Race Pace Analysis"* (**KDMiLe 2026**), modelando o `LapTime_seconds` a partir de dados públicos do **FastF1** em 5 Grandes Prêmios do regulamento 2022–2025.
 
 O projeto envolve:
-- Modelagem de ritmo de corrida
+- Modelagem de ritmo de corrida em múltiplos circuitos
 - Integração de dados meteorológicos
-- Estratégias de validação com Sliding Window
+- Validação temporal com **Sliding Window** e **Expanding Window** + holdout sequencial
+- Comparação entre **Regressão Linear, XGBoost** e um **modelo híbrido LSTM** (baseline + resíduo)
+- Otimização com **Optuna**, rastreamento com **MLflow** e interpretabilidade via **SHAP**
 - Análise de pilotos, equipes e pneus
 - Processamento de dados inspirado em telemetria real
 
@@ -83,12 +87,16 @@ One of my biggest passions is research and applied machine learning.
 
 Currently, my main research project and undergraduate thesis focuses on:
 
-🏎️ **Formula 1 Lap Time Prediction using Machine Learning**
+🏎️ **Multi-Circuit Formula 1 Lap Time Prediction with Hybrid Deep Learning**
+
+This work led to the paper *"Multi-Circuit Formula 1 Lap Time Prediction: A Hybrid Deep Learning Approach for Race Pace Analysis"* (**KDMiLe 2026**), modeling `LapTime_seconds` from public **FastF1** data across 5 Grand Prix from the 2022–2025 regulations.
 
 The project involves:
-- Race pace modeling
+- Multi-circuit race pace modeling
 - Weather integration
-- Sliding window validation strategies
+- Temporal validation with **Sliding Window** and **Expanding Window** + sequential holdout
+- Comparison between **Linear Regression, XGBoost** and a **hybrid LSTM** model (baseline + residual)
+- Optimization with **Optuna**, tracking with **MLflow** and interpretability via **SHAP**
 - Driver/team/tire performance analysis
 - Telemetry-inspired data processing
 
