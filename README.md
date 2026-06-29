@@ -102,6 +102,56 @@ to create robust predictive models for Formula 1 performance analysis.
 
 ---
 
+# 📂 Projeto em Destaque | Featured Project — F1-MultiCircuit-LapTimeModel
+
+🇧🇷  
+Código de pesquisa e material suplementar do meu **TCC**, base do artigo *"Multi-Circuit Formula 1 Lap Time Prediction: A Hybrid Deep Learning Approach for Race Pace Analysis"* (**KDMiLe 2026**). O projeto modela o `LapTime_seconds` a partir de dados públicos de corrida do **FastF1**, com um protocolo de validação temporal que espelha uma corrida real: janela expansiva no bloco de modelagem e um **holdout sequencial** nas últimas voltas.
+
+**🏁 Escopo (5 GPs do regulamento técnico 2022–2025):**
+Bahrein 🇧🇭 • Arábia Saudita 🇸🇦 • Estados Unidos 🇺🇸 • Itália 🇮🇹 • Hungria 🇭🇺
+
+**🤖 Modelos comparados:**
+- **Linear Regression** (expanding-window) — baseline interpretável
+- **XGBoost** (expanding-window, espaço de busca Optuna por circuito) — baseline não-linear
+- **LSTM Hybrid** *(modelo selecionado)* — baseline LR-EW + LSTM que prediz o **resíduo** `LapTime_seconds − baseline_prediction`, mantendo um forte componente linear enquanto a rede captura a estrutura complexa restante
+
+**🔬 Metodologia:**
+- Ordenação cronológica multi-temporada (por ano e, dentro de cada ano, por número da volta)
+- Validação **Sliding-Window** / **Expanding-Window** nos primeiros 80% + **holdout sequencial** nos últimos 20%
+- Métricas: **RMSE, MAE, R², desvio-padrão do resíduo, intervalos de confiança via bootstrap** e o indicador de estabilidade **COS_MAE / COS_RMSE**
+- Otimização de hiperparâmetros com **Optuna** e rastreamento de experimentos com **MLflow**
+- **Interpretabilidade** via coeficientes da regressão, importância de features e **SHAP** no XGBoost
+- Análise por piloto, equipe, composto de pneu e condições meteorológicas
+- Geração automática de tabelas **LaTeX** para o artigo
+
+**🛠️ Stack do projeto:** Python • Pandas • NumPy • Scikit-Learn • XGBoost • TensorFlow/Keras • FastF1 • Optuna • MLflow • SHAP
+
+---
+
+🇺🇸  
+Research code and supplementary material for my **undergraduate thesis (TCC)**, the foundation of the paper *"Multi-Circuit Formula 1 Lap Time Prediction: A Hybrid Deep Learning Approach for Race Pace Analysis"* (**KDMiLe 2026**). The project models `LapTime_seconds` from public **FastF1** race data with a temporal protocol that mirrors a real race: expanding-window validation inside the modeling block and a final **sequential holdout** on the last laps.
+
+**🏁 Scope (5 Grand Prix from the 2022–2025 technical-regulation era):**
+Bahrain 🇧🇭 • Saudi Arabia 🇸🇦 • United States 🇺🇸 • Italy 🇮🇹 • Hungary 🇭🇺
+
+**🤖 Compared models:**
+- **Linear Regression** (expanding-window) — interpretable baseline
+- **XGBoost** (expanding-window, circuit-specific Optuna search space) — non-linear baseline
+- **LSTM Hybrid** *(selected model)* — LR-EW baseline + an LSTM predicting the **residual** `LapTime_seconds − baseline_prediction`, keeping a strong linear component while the network captures the remaining complex structure
+
+**🔬 Methodology:**
+- Multi-season chronological ordering (by year, then by lap number within each year)
+- **Sliding-Window** / **Expanding-Window** validation over the first 80% + **sequential holdout** on the last 20%
+- Metrics: **RMSE, MAE, R², residual standard deviation, bootstrap confidence intervals** and the **COS_MAE / COS_RMSE** stability indicator
+- Hyperparameter optimization with **Optuna** and experiment tracking with **MLflow**
+- **Interpretability** through regression coefficients, feature importance and **SHAP** on XGBoost
+- Analysis by driver, team, tire compound and weather conditions
+- Automatic generation of **LaTeX** tables for the paper
+
+**🛠️ Project stack:** Python • Pandas • NumPy • Scikit-Learn • XGBoost • TensorFlow/Keras • FastF1 • Optuna • MLflow • SHAP
+
+---
+
 # 🚀 Main Stack | Stack Principal
 
 <div align="center">
@@ -129,7 +179,9 @@ to create robust predictive models for Formula 1 performance analysis.
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
 <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/XGBoost-EC4B26?style=for-the-badge&logo=xgboost&logoColor=white" />
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
 
 <br><br>
 
@@ -160,4 +212,3 @@ to create robust predictive models for Formula 1 performance analysis.
 ### “Always trying to become 1% better every day.”
 
 </div>
-```
